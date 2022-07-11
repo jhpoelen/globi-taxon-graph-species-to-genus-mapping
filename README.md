@@ -3,14 +3,14 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - url: foodorganisms.txt
+    - url: species-to-genus.txt
       type: text/csv
 #   - url: https://example.org/data.tsv
 #     type: text/tab-separated-values
-    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
-      type: application/dwca
-    - url: https://example.org/rss.xml
-      type: application/rss2+xml
+#    - url: https://serv.biokic.asu.edu/ecdysis/content/dwca/UCSB-IZC_DwC-A.zip
+#      type: application/dwca
+#    - url: https://example.org/rss.xml
+#      type: application/rss2+xml
 taxonomies:
     - id: col
       name: Catalogue of Life
